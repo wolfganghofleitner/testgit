@@ -1,3 +1,5 @@
+HOW changed
+
  1.) Überprüfen der Java Version,Java 1.6.x muss installiert sein.
  C:> java -version
 
