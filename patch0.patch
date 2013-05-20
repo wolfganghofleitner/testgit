@@ -1,0 +1,13 @@
+diff --git a/helloworld/Hello.java b/helloworld/Hello.java
+deleted file mode 100644
+index 49d7cee..0000000
+--- a/helloworld/Hello.java
++++ /dev/null
+@@ -1,7 +0,0 @@
+-public class Hello
+-{
+-  public static String world()
+-  {
+-    return "Hello world";
+-  }
+-}
