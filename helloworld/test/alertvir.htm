@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>WARNUNG: Virus oder unerwünschtes Programm gefunden!</title>
+   	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="-1" />
+	<base href="http://www.avira.com/images/content/images/av13/" />
+	<style type="text/css">
+		body, * {
+			padding:0;
+			margin:0;
+		}
+		#container {
+			margin: 0 auto;
+			width:600px;
+			border:1px solid #ccc;
+			border-top:0;
+		}
+
+		#header {
+			width:600px;
+			height:95px;
+			background-image:url('webguard/header_bg_personal.png');
+			background-repeat:no-repeat;
+		}
+
+		#header img {
+			float:right;
+			margin-right:20px;
+			margin-top:14px;
+		}
+
+		#barBeneathHeader {
+			width:600px;
+			height:20px;
+			background-image:url('webguard/barBeneathHeader_bg.png');
+			background-repeat:repeat-x;
+		}
+		
+		#content {
+			background-image:url('webguard/content_bg.png');
+			background-repeat:no-repeat;
+			width:600px;
+			min-height:324px;
+		}
+
+		#warningTitle {
+			margin:0 auto;
+			width:514px;
+			height:77px;
+			padding-top:19px;
+		}
+
+		#warningTitle h1 {
+			display:inline;
+			font-size:24px;
+			color:#e11f27;
+			font-family: Arial;
+		}
+
+		#warningTitle h2 {
+			display:inline;
+			font-size:14px;
+			color:#464646;
+			font-family: Arial;
+		}
+		
+		#warningText {
+			background-color:#fff;
+			border:1px solid #c8c9c9;
+			padding:21px;
+			width:472px;
+			margin:0 auto;
+			font-family: Arial;
+			font-size:12px;
+			color:#464646;
+		}
+		
+		#experts {
+			padding:15px 46px 15px 46px;
+			font-size:12px;
+			font-family: Arial;
+			color:#464646;
+		}
+
+		#footer {
+			padding:15px 46px 15px 46px;
+			font-size:10px;
+			font-family: Arial;
+			color:#999;
+		}
+
+		#footerShadow {
+			background-image:url('webguard/footer_shadow.png');
+			width:600px;
+			height:7px;
+			margin:0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header"><img src="webguard/logo.png" alt="Avira" /></div>
+		<div id="barBeneathHeader"></div>
+		<div id="content">
+			<div id="warningTitle">
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td valign="middle" align="left"><img src="webguard/warning.png" alt="" border="0" /></td>
+						<td width="19">&nbsp;</td>
+						<td valign="middle" align="left"><h1>Warnung</h1><br /><h2>Um Ihre Sicherheit nicht zu gefährden, erfolgt kein Zugriff auf diese Seite</h2></td>
+					</tr>
+				</table>
+			</div>
+			<div id="warningText">
+				In den HTTP-Daten der angeforderten Seite wurde ein Virus oder ein unerwünschtes Programm gefunden.<br /><br />
+				<img src="webguard/line.png" alt="" border="0" /><br /><br />
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td><b>Angeforderte URL:</b></td>
+						<td width="4"></td>
+						<td>%REQUESTEDURL%</td>
+					</tr>
+					<tr>
+						<td><b>Information:</b></td>
+						<td width="4"></td>
+						<td>%INFOMSG%</td>
+					</tr>
+				</table>
+			</div>
+			%EXPERTSMARKET%	
+		</div>
+		<div id="footer">Generiert durch %PRODUCTNAME% %PRODUCTVERSION%, AVE %ENGINEVERSION%, VDF %VDFVERSION%</div>
+	</div>
+	<div id="footerShadow"></div>
+</body>
+</html>

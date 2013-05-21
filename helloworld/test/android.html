@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+	<title>User Interface</title>
+	<style type="text/css">
+		body {
+			background-color: #f0f0f0;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			width: 340px;
+			height: 362px;
+			margin: 0;
+			padding: 0;
+		}
+		.smallTitle {
+			font-family: Segoe UI, Arial, sans-serif;
+			font-size: 18px;
+			padding-bottom: 5px;
+			line-height: 17px;
+			color: #333;
+			width: 367px;
+		}
+		.bigTitle {
+			font-family: Segoe UI, Arial, sans-serif;
+			font-size: 26px;
+			font-weight: bold;
+			line-height: 30px;
+			padding-bottom: 10px;
+			color: #666;
+			width: 367px;
+		}
+		.normalText {
+			font-family: Arial, sans-serif;
+			font-size: 15px;
+			color: #333;
+			width: 367px;
+			line-height: 20px;
+		}
+		.normalText a, .normalText a:active, .normalText a:visited {
+			color:#de0007;
+			text-decoration: none;
+		}
+		.normalText a:hover {
+			text-decoration: underline;
+		}
+		.normalText div {
+			padding-top: 8px;
+		}
+		.leftBottomBlock {
+			width: 300px;
+			float: left;
+		}
+		.rightBottomBlock {
+			position: relative;
+			margin-top: 10px;
+			float: right;
+			padding: 0;
+			margin: 0;
+		}
+		.btnGray {
+			text-align: center;
+			font-family: Segoe UI, Arial, sans-serif;
+			font-size: 18px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: block;
+			float: left;
+		}
+		.btnGray table tr td a, .btnGray table tr td a:active, .btnGray table tr td a:visited, .btnGray table tr td a:hover {
+			color: #fff;
+			text-decoration: none;
+		}
+		.btnGray table tr td.left {
+			background-image: url('android_btn_gray_normal.gif');
+			background-repeat: no-repeat;
+			width: 25px;
+			height: 49px;
+		}
+		.btnGray:hover table tr td.left {
+			background-image: url('android_btn_gray_hover.gif');
+		}
+		.btnGray table tr td.right {
+			background-image: url('android_btn_gray_normal.gif');
+			background-repeat: no-repeat;
+			background-position: right;
+			width: 25px;
+			height: 49px;
+		}
+		.btnGray:hover table tr td.right {
+			background-image: url('android_btn_gray_hover.gif');
+		}
+		.btnGray table tr td.center {
+			background-image: url('android_btn_gray_normal.gif');
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 49px;
+			letter-spacing: 0.8px;
+		}
+		.btnGray:hover table tr td.center {
+			background-image: url('android_btn_gray_hover.gif');
+		}
+		.btnGray table tr td.center a {
+			color: #fff;
+		}
+		.textTable {
+			font-family: Arial, sans-serif;
+			font-size: 13px;
+			color: #333;
+			padding-left: 30px;
+		}
+		.textTable a, .textTable a:active, .textTable a:visited {
+			color: #de0007;
+			text-decoration: none;
+			font-size: 17px;
+		}
+		.textTable a:hover {
+			text-decoration: underline;
+		}
+		.tl {
+			background-image: url('android_bg_tl.jpg');
+			background-position: left top;
+			background-repeat: no-repeat;
+		}
+		.tr {
+			background-image: url('android_bg_tr.jpg');
+			background-position: right top;
+			background-repeat: no-repeat;
+		}
+		.ml {
+			background-image: url('android_bg_ml.jpg');
+			background-position: left top;
+			background-repeat: no-repeat;
+		}
+		.mr {
+			background-image: url('android_bg_mr.jpg');
+			background-position: right top;
+			background-repeat: no-repeat;
+		}
+		.bl {
+			background-image: url('android_bg_bl.jpg');
+			background-position: left top;
+			background-repeat: no-repeat;
+		}
+		.br {
+			background-image: url('android_bg_br.jpg');
+			background-position: right top;
+			background-repeat: no-repeat;
+		}
+		.rightImage {
+			position: relative;
+			top: 18px;
+			
+		}
+	</style>
+    <!--[if IE 6]>
+	<style type="text/css">
+		.rightImage { position: relative; top: 22px; left: 0; }
+	</style>
+    <![endif]-->
+    <!--[if IE 7]>
+	<style type="text/css">
+		.rightImage { position: relative; top: 22px; left: 0; }
+	</style>
+    <![endif]-->
+</head>
+<body>
+
+	<table cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td width="35" height="35" class="tl"></td>
+			<td width="543" height="35" class="tr"></td>
+		</tr>
+		<tr>
+			<td width="35" class="ml"></td>
+			<td width="543" class="mr">
+			
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td valign="top" align="left">
+						
+							<div class="smallTitle">Avira Free Android Security</div>
+							<div class="bigTitle">Ihr Smartphone im Blick.<br />Auch wenn Sie es nicht sehen!</div>
+							<div class="normalText">
+								Zum Schutz des Handys vor Verlust und Diebstahl <br />haben Sie zwei einfache Möglichkeiten: <br />
+								<div>1. Das Handy nie aus den Augen zu lassen.<br />2. Avira Free Android Security zu installieren.</div>
+							</div>
+							
+							<div class="leftBottomBlock">
+								
+								<div class="btnGray">				
+									<table cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td class="left" height="50" width="25">&nbsp;</td>
+											<td class="center" height="50" valign="middle" align="center"><a href="http://www.avira.com/de/avira-free-android-security/download" target="_blank">Jetzt herunterladen</a></td>
+											<td class="right" height="50" width="25">&nbsp;</td>
+										</tr>
+									</table>
+								</div>
+								
+								<br clear="all" />
+								
+								<div class="normalText">Haben Sie bereits ein Konto für<br />Avira Free Android Security? <a href="http://www.avira.com/de/avira-free-android-security/login" target="_blank">Anmelden&nbsp;&nbsp;<img src="android_red_arrow.gif" alt="" title="" width="5" height="9" border="0" /></a></div>
+								
+								<br clear="all" />
+								
+								<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td valign="bottom" align="left"><img src="android_video.gif" alt="" title="" width="73" height="74" border="0" /></td>
+										<td valign="bottom" align="left" class="textTable" width="165">
+											<a href="http://www.avira.com/de/avira-free-android-security" target="_blank">Mehr Infos&nbsp;&nbsp;<img src="android_red_arrow.gif" alt="" title="" width="5" height="9" border="0" /></a><br />
+											Sehen Sie sich die interaktive Anleitung zu <br />Avira Free Android Security an!
+										</td>
+									</tr>
+								</table>
+								
+							</div>
+							
+						</td>
+						<td valign="bottom" align="right">
+							<div class="rightImage">								
+								<img src="android_phone.gif" alt="Android-Handy" title="Android-Handy" border="0" />
+							</div>
+						</td>
+					</tr>
+				</table>
+				
+			</td>
+		</tr>
+		<tr>
+			<td width="35" height="18" class="bl"></td>
+			<td width="543" height="18" class="br"></td>
+		</tr>
+	</table>
+	
+</body>
+</html>
+<!-- AVCS4F3A4200C37O030000000503000002AB010000000000000000000000000303000000650300000200P00000000000000001C643BAEE51CF448BC80940C34756FFB9DC1B8A432DF6C8681354727A45B5EFAE04D5BCEEA9C909938D0AF275597E649188465FBF2D699DA627CB1C9F29BA99909A8FB1020EFB2A0A13856D46633C61BFF4D00C1CCDF502E8709B8B48F8E11FC3DF9761B45B205C53FA12575DAEC9552E350613E41C7353E01EA9032D31EB8D5C77B6308AB2E3195F59AA96DE18BF65F92385072F795893E08B9D1CA3A3B242F048A61DA269E910E4849CD1B62586EB40E837A485F425282DE3F7A3C5306791FE20D413660DCC0A6FC0DCF3E64400652DC1887F540D6182671C0CA15FA0FD036A8EF26BC9F311FA26837B1A7DC5EDC7C5610F391CA6D120040D75D7EB7499CC100000000000000000000000000000292030000000403T62F3AB0132FAVCSE -->
